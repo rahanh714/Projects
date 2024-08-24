@@ -5,7 +5,6 @@ print(logo)
 HARD_TRIES = 5
 EASY_TRIES = 10
 
-
 def check_answer(user_guess, computer_number, number_of_tries):
     if user_guess == computer_number:
         print(f"You got it! The answer was {computer_number}")
